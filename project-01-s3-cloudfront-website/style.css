@@ -1,25 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #0f0f0f;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    min-height: 100vh;
+    font-family: Arial, sans-serif;
 }
 
 .container {
+    padding: 24px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card {
     text-align: center;
-    background: white;
-    padding: 40px;
-    border-radius: 10px;
-    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    max-width: 480px;
+    width: 100%;
 }
 
 h1 {
-    color: #232f3e;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 500;
+    margin-bottom: 8px;
 }
 
-p {
-    color: #555;
+.role {
+    color: #aaaaaa;
+    font-size: 15px;
+    margin-bottom: 16px;
+}
+
+.bio {
+    color: #666666;
+    font-size: 13px;
+    line-height: 1.7;
+    margin-bottom: 20px;
+    max-width: 360px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.tags {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 24px;
+}
+
+.tag {
+    border: 1px solid #2a2a2a;
+    color: #888888;
+    padding: 4px 12px;
+    border-radius: 20px;
+    font-size: 11px;
+}
+
+.divider {
+    border: none;
+    border-top: 1px solid #1e1e1e;
+    margin-bottom: 24px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 28px;
+}
+
+.btn-ghost {
+    border: 1px solid #2a2a2a;
+    color: #aaaaaa;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 13px;
+    text-decoration: none;
+    display: inline-block;
+    transition: border-color 0.2s, color 0.2s;
+}
+
+.btn-ghost:hover {
+    border-color: #555;
+    color: #ffffff;
+}
+
+.btn-solid {
+    background: #ffffff;
+    color: #0f0f0f;
+    padding: 8px 20px;
+    border-radius: 6px;
+    font-size: 13px;
+    font-weight: 500;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.2s, color 0.2s;
+}
+
+.btn-solid:hover {
+    background: #dddddd;
+}
+
+.hosted {
+    color: #444444;
+    font-size: 11px;
+}
+
+.hosted span {
+    color: #555555;
 }
