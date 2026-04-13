@@ -1,5 +1,4 @@
 # ☁️ AWS Cloud Portfolio — Jonito30
-
 A collection of hands-on AWS projects built while studying for cloud certifications and developing real cloud engineering skills.
 
 ---
@@ -9,6 +8,7 @@ A collection of hands-on AWS projects built while studying for cloud certificati
 | # | Project | AWS Services | Status |
 |---|---------|-------------|--------|
 | 01 | [Static Website on S3 + CloudFront](./project-01-s3-cloudfront-website) | S3, CloudFront | ✅ Complete |
+| 02 | [IAM Security Audit Script](./project-02-iam-security-audit) | IAM, Boto3, AWS CLI | ✅ Complete |
 
 ---
 
@@ -17,6 +17,8 @@ A collection of hands-on AWS projects built while studying for cloud certificati
 - Git & GitHub
 - HTML & CSS
 - JSON (IAM & Bucket Policies)
+- Python & Boto3
+- AWS CLI
 
 ---
 
