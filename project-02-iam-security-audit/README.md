@@ -21,6 +21,6 @@ A Python script that connects to AWS and audits IAM security settings, flagging 
 - Real security best practices for AWS accounts
 
 ## Findings on My Account
-- Johnny has no MFA enabled ⚠️
+- Johnny has no MFA enabled ✅
 - Johnny has AdministratorAccess via group 'admin' ⚠️
 - Access key is 0 days old ✅
